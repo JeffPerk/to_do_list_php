@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: lightgrey;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 100%;
+  width: 100%;
+}
+
+.form-container {
+  height: 700px;
+  width: 500px;
+  border: 1px solid black;
+  background: white;
+  margin: 20px auto;
+}
+
+.title-box {
+  text-align: center;
+  line-height: 100px;
+  font-family: Shadows into light two;
+  border: 1px solid black;
+  height: 130px;
+  width: 100%;
+}
+
+.form-section {
+  height: 90px;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  line-height: 80px;
+}
+
+#text-field {
+  height: 25px;
+  width: 150px;
+}
